@@ -32,7 +32,7 @@ if (!is_null($events['events'])) //check ค่าในตัวแปร $even
 			$txtin = $event['message']['text'];//เอาข้อความจากไลน์ใส่ตัวแปร $txtin
 			if($txtin == "hibot")
 			{
-				$txtback = "hihuman"
+				$txtback = "hihuman";
 				reply_msg($txtback,$replyToken);
 			}
 		}

@@ -1,4 +1,9 @@
 <?php
+$server = "us-cdbr-iron-east-01.cleardb.net";
+    $username = "b798786b8aa714";
+    $password = "2e0e0451";
+    $db = "heroku_ce52199dd4f50e1";
+    $conn = new mysqli($server, $username, $password, $db);
 function reply_msg($txtback,$replyToken)//สร้างข้อความและตอบกลับ
 {
     $access_token = 'nneB0i9dvR1YtaiyvGGBuUuqPFVXSYL1rmr0oYU6b/+EcrLxNiZC+wrpagX5Hw+M4Bd/xp+92FIw58mZFguVVt5wqf094B0armpKuMjbdMUKFhqonjjdR6BPcUJc2zs3DL/mzEtaWwLW/OmQdxKNkwdB04t89/1O/w1cDnyilFU=';
@@ -30,13 +35,14 @@ if (!is_null($events['events'])) //check ค่าในตัวแปร $even
 		{
 			$replyToken = $event['replyToken']; //เก็บ reply token เอาไว้ตอบกลับ
 			$txtin = $event['message']['text'];//เอาข้อความจากไลน์ใส่ตัวแปร $txtin
-			if($txtin == "hibot")
+			$sql_text = "SELECT * FROM tbl_kanjanasid WHERE name = '".$txtin."'";
+			$query  = mysqli_query($conn,$sql_text);
+			while($obj = mysqli_fetch_array($query))
 			{
-				$txtback = "hihuman";
+				$txtback = $obj["lastname"];
 				reply_msg($txtback,$replyToken);
 			}
 		}
 	}
 }
-echo "OK ";
 ?>

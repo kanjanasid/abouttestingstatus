@@ -10,4 +10,10 @@
     }
     mysqli_query($conn, "SET NAMES utf8");
 	echo "Connected";
+	$sql_text = "SELECT * FROM tbl_kanjanasid";
+	$query = mysqli_query($conn,$sql_text);
+	while($obj = mysqli_fetch_array($query))
+	{
+	echo $obj["lastname"];
+	}
  ?>

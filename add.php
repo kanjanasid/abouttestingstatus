@@ -26,14 +26,25 @@
 		</div>
 		<div class = "container">
 			<div class = "row">
-				<div class = "col-lg-4" style="background-color:yellow;">
-					<h4>col1</h4>
+				<div class = "col-lg-2" style="background-color:yellow;">
+					<div class = "row">
+						<label for="usr">=ชื่อ:</label>
+						<input type="text" class="form-control" name="name" placeholder="ใส่ชื่อของคุณ">
+					</div>
+					<div class = "row">
+						<label for="usr">=นามสกุล:</label>
+						<input type="text" class="form-control" name="name" placeholder="ใส่นามสกุลของคุณ">
+					</div>	
+					<div class = "row">
+						<label for="usr">=email:</label>
+						<input type="text" class="form-control" name="name" placeholder="ใส่ email ของคุณ">
+					</div>
+					<div class = "mt-2 row">
+						<input class="btn btn-success btn-block" type="submit" value="บันทึก">
+					</div>
 				</div>
-				<div class="col-lg-4" style="background-color:blue;">
+				<div class="col-lg-10" style="background-color:blue;">
 					<h4>col2</h4>
-				</div>
-				<div class="col-lg-4" style="background-color:red;">
-					<h1>col3</h1>
 				</div>
 			</div>
 		</div>

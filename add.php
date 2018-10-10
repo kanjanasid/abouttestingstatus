@@ -15,7 +15,7 @@
 				text-align:center;
 			}
 		</style>
-	<?php
+		<?php
 			$server = "us-cdbr-iron-east-01.cleardb.net";
 			$username = "b798786b8aa714";
 			$password = "2e0e0451";
@@ -65,7 +65,7 @@
 							</thead>
 							<tbody>
 								<?php
-									$sql = "SELECT * FROM tbl_nuthapong";
+									$sql = "SELECT * FROM tbl_kanjanasid";
 									$query = mysqli_query($conn,$sql);
 									while($obj = mysqli_fetch_array($query))
 									{

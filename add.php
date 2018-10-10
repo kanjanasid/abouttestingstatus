@@ -19,10 +19,20 @@
 	<body>
 		<div class = "container-fluid" style = "background-color:pink;">
 			<div class="row row-center">
-				<div class="col-lg-9 " style="background-color:blue;">
+				<div class="col-lg-4 offset-lg-4" style="background-color:pink;">
 					<h4>บันทึกข้อมูล</h4>
 				</div>
 			</div>
-		</div>	
+		</div>
+		<div class = "container">
+			<div class = "row">
+				<div class = "col-lg-2" style="background-color:yellow;">
+					<h4>col1</h4>
+				</div>
+				<div class="col-lg-10" style="background-color:blue;">
+					<h4>col2</h4>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>

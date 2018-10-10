@@ -29,8 +29,11 @@
 				<div class = "col-lg-2" style="background-color:yellow;">
 					<h4>col1</h4>
 				</div>
-				<div class="col-lg-10" style="background-color:blue;">
+				<div class="col-lg-7" style="background-color:blue;">
 					<h4>col2</h4>
+				</div>
+				<div class="col-lg-3" style="background-color:blue;">
+					<h1>col3</h1>
 				</div>
 			</div>
 		</div>

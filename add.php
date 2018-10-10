@@ -28,23 +28,43 @@
 			<div class = "row">
 				<div class = "col-lg-2" style="background-color:yellow;">
 					<div class = "row">
-						<label for="usr">=ชื่อ:</label>
+						<label for="usr">ชื่อ:</label>
 						<input type="text" class="form-control" name="name" placeholder="ใส่ชื่อของคุณ">
 					</div>
 					<div class = "row">
-						<label for="usr">=นามสกุล:</label>
+						<label for="usr">นามสกุล:</label>
 						<input type="text" class="form-control" name="lastname" placeholder="ใส่นามสกุลของคุณ">
 					</div>	
 					<div class = "row">
-						<label for="usr">=email:</label>
+						<label for="usr">email:</label>
 						<input type="text" class="form-control" name="email" placeholder="ใส่ email ของคุณ">
 					</div>
 					<div class = "mt-2 row">
 						<input class="btn btn-success btn-block" type="submit" value="บันทึก">
 					</div>
+					
 				</div>
-				<div class="col-lg-10" style="background-color:blue;">
-					<h4>col2</h4>
+				<div class="col-lg-10">
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>ชื่อ</th>
+									<th>นามสกุล</th>
+									<th>email</th>
+									<th>999</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1111</td>
+									<td>2222</td>
+									<td>3333</td>
+									<td>4444</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>

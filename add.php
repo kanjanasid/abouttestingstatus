@@ -33,11 +33,11 @@
 					</div>
 					<div class = "row">
 						<label for="usr">=นามสกุล:</label>
-						<input type="text" class="form-control" name="name" placeholder="ใส่นามสกุลของคุณ">
+						<input type="text" class="form-control" name="lastname" placeholder="ใส่นามสกุลของคุณ">
 					</div>	
 					<div class = "row">
 						<label for="usr">=email:</label>
-						<input type="text" class="form-control" name="name" placeholder="ใส่ email ของคุณ">
+						<input type="text" class="form-control" name="email" placeholder="ใส่ email ของคุณ">
 					</div>
 					<div class = "mt-2 row">
 						<input class="btn btn-success btn-block" type="submit" value="บันทึก">

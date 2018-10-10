@@ -26,13 +26,13 @@
 		</div>
 		<div class = "container">
 			<div class = "row">
-				<div class = "col-lg-2" style="background-color:yellow;">
+				<div class = "col-lg-4" style="background-color:yellow;">
 					<h4>col1</h4>
 				</div>
-				<div class="col-lg-7" style="background-color:blue;">
+				<div class="col-lg-4" style="background-color:blue;">
 					<h4>col2</h4>
 				</div>
-				<div class="col-lg-3" style="background-color:red;">
+				<div class="col-lg-4" style="background-color:red;">
 					<h1>col3</h1>
 				</div>
 			</div>

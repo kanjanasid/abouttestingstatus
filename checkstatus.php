@@ -33,7 +33,7 @@
 		<div class = "container-fluid" style = "background-color:violet;">
 			<div class="row row-center">
 				<div class="col-lg-5 offset-lg-3" style="background-color:violet;">
-					<h1>สถานะงานทดสอบพัสดุอุปกรณ์ กฟต.1 จ.เพชรบุรี</h1>
+					<h2>สถานะงานทดสอบพัสดุอุปกรณ์ กฟต.1 จ.เพชรบุรี</h2>
 				</div>
 			</div>
 		</div>

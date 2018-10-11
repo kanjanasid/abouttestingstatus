@@ -30,10 +30,10 @@
 		?>
 	</head>
 	<body>
-		<div class = "container-fluid" style = "background-color:pink;">
+		<div class = "container-fluid" style = "background-color:violet;">
 			<div class="row row-center">
-				<div class="col-lg-5 offset-lg-3" style="background-color:pink;">
-					<h4>สถานะงานทดสอบพัสดุอุปกรณ์ กฟต.1 จ.เพชรบุรี</h4>
+				<div class="col-lg-5 offset-lg-3" style="background-color:violet;">
+					<h1>สถานะงานทดสอบพัสดุอุปกรณ์ กฟต.1 จ.เพชรบุรี</h1>
 				</div>
 			</div>
 		</div>

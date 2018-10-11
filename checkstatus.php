@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>เช็คสถานะงานทดสอบพัสดุอุปกรณ์ กฟต.1 จ.เพชรบุรี</title>
+		<title>About Testing Status</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0," charset="utf-8">
 		<title>BOT TRAIN PEA S.1</title>
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -33,7 +33,7 @@
 		<div class = "container-fluid" style = "background-color:pink;">
 			<div class="row row-center">
 				<div class="col-lg-4 offset-lg-4" style="background-color:pink;">
-					<h4>บันทึกข้อมูล</h4>
+					<h4>เช็คสถานะงานทดสอบพัสดุอุปกรณ์ กฟต.1 จ.เพชรบุรี</h4>
 				</div>
 			</div>
 		</div>

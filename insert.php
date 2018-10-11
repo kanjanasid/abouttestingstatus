@@ -40,7 +40,7 @@
 		<div class = "container">
 			<div class = "row">
 				<div class = "col-lg-2">
-					<form action="rec.php" method="post">
+					<form action="insert.php" method="post">
 						<div class = "row">
 							<label for="usr">ชื่อ:</label>
 							<input type="text" class="form-control" name="name" placeholder="ใส่ชื่อของคุณ">

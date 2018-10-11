@@ -3,6 +3,7 @@
 		<title>บันทึกข้อมูล</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0," charset="utf-8">
 		<title>BOT TRAIN PEA S.1</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
@@ -13,6 +14,10 @@
 			.row-center
 			{
 				text-align:center;
+			}
+			body
+			{
+				font-family: 'Raleway', sans-serif;
 			}
 		</style>
 		<?php

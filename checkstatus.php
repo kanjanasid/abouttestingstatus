@@ -3,7 +3,7 @@
 		<title>About Testing Status</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0," charset="utf-8">
 		<title>BOT TRAIN PEA S.1</title>
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Mitr" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
@@ -17,7 +17,7 @@
 			}
 			body
 			{
-				font-family: 'Raleway', sans-serif;
+				font-family: 'Mitr', sans-serif;
 			}
 		</style>
 		<?php
@@ -32,7 +32,7 @@
 	<body>
 		<div class = "container-fluid" style = "background-color:pink;">
 			<div class="row row-center">
-				<div class="col-lg-5 offset-lg-5" style="background-color:pink;">
+				<div class="col-lg-4 offset-lg-5" style="background-color:pink;">
 					<h4>เช็คสถานะงานทดสอบพัสดุอุปกรณ์ กฟต.1 จ.เพชรบุรี</h4>
 				</div>
 			</div>

@@ -7,7 +7,7 @@
  $conn = new mysqli($server, $username, $password, $db);
  mysqli_query($conn, "SET NAMES utf8");
  
- $sql_text = "SELECT * FROM inserttesting WHERE office LIKE = '%กฟจ%'";
+ $sql_text = "SELECT * FROM inserttesting WHERE office LIKE = '%กฟ%'";
  $query_text = mysqli_query ($conn,$sql_text);
  
  while($obj = mysqli_fetch_array($query_text))

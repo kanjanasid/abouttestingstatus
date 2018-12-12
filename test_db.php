@@ -7,11 +7,11 @@
  $conn = new mysqli($server, $username, $password, $db);
  mysqli_query($conn, "SET NAMES utf8");
  
- $sql_text = "SELECT * FROM contacttable WHERE name = 'Kanjanasid'";
+ $sql_text = "SELECT * FROM inserttesting WHERE office LIKE = '%กฟจ%'";
  $query_text = mysqli_query ($conn,$sql_text);
  
  while($obj = mysqli_fetch_array($query_text))
  {
-	 echo $obj["name"]." ".$obj["last"];
+	 echo $obj["office"]." ".$obj["docdate"]."<br>";
  }
  ?>

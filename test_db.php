@@ -1,4 +1,4 @@
-php
+<?php
 
 $server = "us-cdbr-iron-east-01.cleardb.net";
  $username = "b798786b8aa714";
@@ -14,3 +14,4 @@ $server = "us-cdbr-iron-east-01.cleardb.net";
  {
 	 echo $obj["name"]." ".$obj["pea"];
  }
+ ?>

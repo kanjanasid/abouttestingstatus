@@ -12,6 +12,6 @@
  
  while($obj = mysqli_fetch_array($query_text))
  {
-	 echo $obj["name"]." ".$obj["pea"];
+	 echo $obj["name"]." ".$obj["last"];
  }
  ?>

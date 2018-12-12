@@ -10,7 +10,7 @@
  $sql_text = "SELECT * FROM contacttable";
  $query_text = mysqli_query ($conn,$sql_text);
  
- while($obj = mysquli_fetch_array($query_text))
+ while($obj = mysqli_fetch_array($query_text))
  {
 	 echo $obj["name"]." ".$obj["pea"];
  }

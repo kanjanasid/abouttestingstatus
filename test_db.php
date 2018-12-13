@@ -15,6 +15,6 @@
 		{
 			$result = $result."\n".$obj_result["docnumber"];
 		}
-		return $return;
+		return $result;
 	}
  ?>

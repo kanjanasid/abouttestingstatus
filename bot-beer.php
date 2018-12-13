@@ -31,7 +31,7 @@
 			{
 				$replyToken = $event['replyToken']; //เก็บ reply token เอาไว้ตอบกลับ
 				$txtin = $event['message']['text'];//เอาข้อความจากไลน์ใส่ตัวแปร $txtin
-				$result = query($txtin);
+				$result = search($txtin);
 				send_back($result,$replyToken);
 			}
 		}

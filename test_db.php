@@ -7,7 +7,7 @@
 	 $conn = new mysqli($server, $username, $password, $db);
 	 mysqli_query($conn, "SET NAMES utf8");
  
-	function query($txtin)
+	function search($txtin)
 	{
 		$sql_text = "SELECT * FROM inserttesting WHERE office LIKE '%".txtin."%'" ;
 		$query = mysqli_query($conn,$sql_text);

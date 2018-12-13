@@ -32,7 +32,7 @@
 				$txtin = $event['message']['text'];//เอาข้อความจากไลน์ใส่ตัวแปร $txtin
 				if($txtin == '1')
 				{
-					$txtback = "Hi..."
+					$txtback = "Hi..." ;
 				}
 				send_back($txtback,$replyToken);
 			}

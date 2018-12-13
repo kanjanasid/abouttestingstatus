@@ -1,4 +1,5 @@
 <?php
+	require('test_db.php');//เรียกใช้ file connect-db
 	function send_back($txtin,$replyToken)
 	{
 		$access_token = 'nneB0i9dvR1YtaiyvGGBuUuqPFVXSYL1rmr0oYU6b/+EcrLxNiZC+wrpagX5Hw+M4Bd/xp+92FIw58mZFguVVt5wqf094B0armpKuMjbdMUKFhqonjjdR6BPcUJc2zs3DL/mzEtaWwLW/OmQdxKNkwdB04t89/1O/w1cDnyilFU=';
@@ -30,13 +31,9 @@
 			{
 				$replyToken = $event['replyToken']; //เก็บ reply token เอาไว้ตอบกลับ
 				$txtin = $event['message']['text'];//เอาข้อความจากไลน์ใส่ตัวแปร $txtin
-				if($txtin == '1')
-				{
-					$txtback = "Hi..." ;
-				}
+				$result = query($txtin);
 				send_back($txtback,$replyToken);
 			}
-			
 		}
 		
 	}

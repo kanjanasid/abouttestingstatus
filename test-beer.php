@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0," charset="utf-8">
-		<title>PSQ V.2</title>
+		<title>งานทดสอบอุปกรณ์ไฟฟ้า กฟต.1</title>
 		<!-- css -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -51,10 +51,10 @@
                     {
                         echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
                         echo $a.".<br>";
-                        echo "การไฟฟ้า".$objsearch["office"]."<br>";
+                        echo "การไฟฟ้า ".$objsearch["office"]."<br>";
                         echo "เลขที่บันทึก ".$objsearch["docnumber"]."<br>";
-                        echo "อุปกรณ์ที่นำมาทดสอบ".$objsearch["devicetest"]."<br>";
-						echo "สถานะงานทดสอบ".$objsearch["teststatus"]."<br>";
+                        echo "อุปกรณ์ที่นำมาทดสอบ ".$objsearch["devicetest"]."<br>";
+						echo "สถานะงานทดสอบ ".$objsearch["teststatus"]."<br>";
                         echo '</a>';
                         $a=$a+1;
                     }

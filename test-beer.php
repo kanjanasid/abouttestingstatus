@@ -35,7 +35,7 @@
 	<body>
 		<div class = "container-fluid" style = "background-color:#b461fb;">
 			<div class = "row">
-				<div class = "col-sm-4" "offset-sm-3">
+				<div class = "col-sm-4" "offset-sm-5">
 					<h5>ติดตามสถานะงานทดสอบอุปกรณ์ไฟฟ้า กฟต.1</h5>
 				</div>
 			</div>

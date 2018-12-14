@@ -19,17 +19,36 @@
 		</style>
 	</head>
 	<body>
-		<div class = "container-fluid">
+		<div class = "container-fluid" style = "background-color:#b461fb;">
 			<div class = "row">
-				<div class = "col-sm-4">
+				<div class = "col-sm-4" "offset-sm-4">
 					<h5>ติดตามสถานะงานทดสอบอุปกรณ์ไฟฟ้า กฟต.1</h5>
 				</div>
 			</div>
-			<div class = "row">
-				<div class = "col-sm-4 offset-sm-4">
-					<h5>ติดตามสถานะงานทดสอบอุปกรณ์ไฟฟ้า กฟต.1</h5>
-				</div>
-			</div>
+		</div>
+		<div class = "contaniner-fluid">
+			<h3>ผลการค้นหา</h3>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="list-group">
+                    <?php
+                    $a=1;
+                    while($objsearch = mysqli_fetch_array($query_search))
+                    {
+                        echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
+                        echo $a.".<br>";
+                        echo "ชื่อ  ".$objsearch["name"]."<br>";
+                        echo "นามสกุล ".$objsearch["lastname"]."<br>";
+                        echo "email".$objsearch["email"];
+                        echo '</a>';
+                        $a=$a+1;
+                    }
+                    $a=0;
+                    ?>
+					
+                </div>
+            </div>
+        </div>
 		</div>
 	</body>
 </html>

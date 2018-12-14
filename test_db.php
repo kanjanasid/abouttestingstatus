@@ -18,12 +18,14 @@
 			$result = "https://abouttestingstatus.herokuapp.com/test-beer.php?keyword=".$txtin;
 			return $result;
 		}
-		else{
+		else
+		{
 		while ($obj_result = mysqli_fetch_array($query))
 		{
 			$result = $result."\n".$obj_result["devicetest"]."\n".$obj_result["teststatus"];
 		}
 		return $result;
+		}
 		}
 	}
  ?>

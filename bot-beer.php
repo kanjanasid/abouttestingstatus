@@ -31,8 +31,16 @@
 			{
 				$replyToken = $event['replyToken']; //เก็บ reply token เอาไว้ตอบกลับ
 				$txtin = $event['message']['text'];//เอาข้อความจากไลน์ใส่ตัวแปร $txtin
-				$result = search($txtin);
-				send_back($result,$replyToken);
+				$check_cmd = substr($txtin,0,1);
+				if($check_cmd == "#")
+				{
+					$len_txt = strlen($txtin);
+					$keyword = substr($txtin,1,$len_txt-1);
+					$result = search($keyword);
+					send_back($result,$replyToken);
+				}
+					
+				
 			}
 		}
 		

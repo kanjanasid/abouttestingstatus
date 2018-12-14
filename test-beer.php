@@ -18,6 +18,20 @@
 		}
 		</style>
 	</head>
+<?php
+	$server = "us-cdbr-iron-east-01.cleardb.net";
+    $username = "b798786b8aa714";
+    $password = "2e0e0451";
+    $db = "heroku_ce52199dd4f50e1";
+    $conn = new mysqli($server, $username, $password, $db);
+	mysqli_query($conn, "SET NAMES utf8");
+	$keyword = $_GET["keyword"];
+	if(isset($keyword))
+	{
+    $sql_search ="SELECT * FROM inserttesting WHERE docnumber LIKE '%".$txtin."%'";
+    $query_search = mysqli_query($conn,$sql_search);
+	}
+?>
 	<body>
 		<div class = "container-fluid" style = "background-color:#b461fb;">
 			<div class = "row">
@@ -37,8 +51,8 @@
                     {
                         echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
                         echo $a.".<br>";
-                        echo "ชื่อ  ".$objsearch["name"]."<br>";
-                        echo "นามสกุล ".$objsearch["lastname"]."<br>";
+                        echo "การไฟฟ้า".$objsearch["PEA"]."<br>";
+                        echo "เลขที่บันทึก ".$objsearch["docnumber"]."<br>";
                         echo "email".$objsearch["email"];
                         echo '</a>';
                         $a=$a+1;

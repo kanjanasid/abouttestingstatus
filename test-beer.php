@@ -28,14 +28,14 @@
 	$keyword = $_GET["keyword"];
 	if(isset($keyword))
 	{
-    $sql_search ="SELECT * FROM inserttesting WHERE docnumber LIKE '%".$txtin."%'";
-    $query_search = mysqli_query($conn,$sql_search);
+		$sql_search ="SELECT * FROM inserttesting WHERE docnumber LIKE '%".$keyword."%'";
+		$query_search = mysqli_query($conn,$sql_search);
 	}
 ?>
 	<body>
 		<div class = "container-fluid" style = "background-color:#b461fb;">
 			<div class = "row">
-				<div class = "col-sm-4" "offset-sm-5">
+				<div class = "col-sm4" "offset-sm-3">
 					<h5>ติดตามสถานะงานทดสอบอุปกรณ์ไฟฟ้า กฟต.1</h5>
 				</div>
 			</div>

@@ -6,10 +6,7 @@
 		$password = "2e0e0451";
 		$db = "heroku_ce52199dd4f50e1";
 		$conn = new mysqli($server, $username, $password, $db);
-		mysqli_query($conn, "SET NAMES utf8");
-		function query($txtin)
-		{
-			
+		mysqli_query($conn, "SET NAMES utf8");	
 		$sql_text = "SELECT * FROM inserttesting WHERE docnumber LIKE '%".$txtin."%'" ;
 		$query = mysqli_query($conn,$sql_text);
 		$num_result = mysqli_num_rows($query);
@@ -20,12 +17,11 @@
 		}
 		else
 		{
-		while ($obj_result = mysqli_fetch_array($query))
-		{
-			$result = $result."\n".$obj_result["devicetest"]."\n".$obj_result["teststatus"];
-		}
-		return $result;
-		}
+			while ($obj_result = mysqli_fetch_array($query))
+			{
+				$result = $result."\n".$obj_result["devicetest"]."\n".$obj_result["teststatus"];
+			}
+			return $result;
 		}
 	}
  ?>

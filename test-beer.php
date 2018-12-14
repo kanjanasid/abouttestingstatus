@@ -35,7 +35,7 @@
 	<body>
 		<div class = "container-fluid" style = "background-color:#b461fb;">
 			<div class = "row">
-				<div class = "col-sm4" "offset-sm-3">
+				<div class = "col-sm4 offset-sm-3">
 					<h5>ติดตามสถานะงานทดสอบอุปกรณ์ไฟฟ้า กฟต.1</h5>
 				</div>
 			</div>
@@ -51,9 +51,10 @@
                     {
                         echo '<a href="'.$objsearch["email"].'" class="list-group-item list-group-item-action">';
                         echo $a.".<br>";
-                        echo "การไฟฟ้า".$objsearch["PEA"]."<br>";
+                        echo "การไฟฟ้า".$objsearch["office"]."<br>";
                         echo "เลขที่บันทึก ".$objsearch["docnumber"]."<br>";
-                        echo "email".$objsearch["email"];
+                        echo "อุปกรณ์ที่นำมาทดสอบ".$objsearch["devicetest"]."<br>";
+						echo "สถานะงานทดสอบ".$objsearch["teststatus"]."<br>";
                         echo '</a>';
                         $a=$a+1;
                     }
